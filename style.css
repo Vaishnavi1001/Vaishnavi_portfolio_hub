@@ -1,0 +1,52 @@
+/* body start */
+body{
+    font-family: "Oswald", sans-serif !important;
+}
+
+/* body end*/
+
+
+/* header-nav start*/
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent !important;
+  padding-top: 20px;
+  
+}
+
+/* NAVBAR starts*/
+.navbar{
+    font-size: 25px;
+}
+
+.navbar-nav{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(138 43 226) !important;
+}
+
+.social-images-links{
+width: 20px;
+}
+/* NAVBAR end*/
+/* header-nav end*/
+
+
+/* main  start*/
+
+
+/* main  end*/
+
+
+/* footer start*/
+
+
+/* footer end*/
