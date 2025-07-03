@@ -36,7 +36,12 @@ ul.navbar-nav {
 
     gap: 21px;
 }
-
+a.navbar-brand{
+    font-size: 30px;
+}
+a.navbar-brand:hover{
+    color: #6610F2;
+}
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
     font-size: 25px;
     font-weight:500;
@@ -51,3 +56,48 @@ a.navbar-brand {
     color: black;
 }
 /* Navigation Ends */
+
+/* HOME PAGE */
+.img_rotate {
+  width: 210px;
+  animation: infiniterotate 10s infinite linear !important;
+}
+
+@keyframes infiniterotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.name{
+  padding-top:150px;
+}
+.home-head-one{
+font-size: 90px;
+padding-left:30px;
+}
+
+.home-image{
+  border-radius: 50%;
+  width:85px;
+  height:85px;
+  margin-bottom:20px;
+}
+
+.home-para{
+   margin-top:20px;
+   font-size:25px;
+   padding-left:30px;
+}
+.home-head-two{
+font-size: 100px;
+ padding-left:80px;
+ font-weight: 2000;
+}
+.home-head-three{
+font-size: 90px; 
+}
+   
+/* HOME PAGE */
