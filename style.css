@@ -87,14 +87,15 @@ a.navbar-brand {
    padding-left:10px;
 }
 .home-head-one{
-font-size: 100px;
+font-size: 105px;
 padding-left:10px;
 }
 .home-head-two{
-font-size: 100px;
+font-size: 105px;
+padding-left: 100px;
 }
 .home-head-three{
-font-size: 100px; 
+font-size: 105px; 
 }
    
 /* HOME PAGE */
