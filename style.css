@@ -72,13 +72,8 @@ a.navbar-brand {
   }
 }
 .name{
-  padding-top:150px;
+  padding-top:50px;
 }
-.home-head-one{
-font-size: 90px;
-padding-left:30px;
-}
-
 .home-image{
   border-radius: 50%;
   width:85px;
@@ -89,15 +84,17 @@ padding-left:30px;
 .home-para{
    margin-top:20px;
    font-size:25px;
-   padding-left:30px;
+   padding-left:10px;
+}
+.home-head-one{
+font-size: 100px;
+padding-left:10px;
 }
 .home-head-two{
 font-size: 100px;
- padding-left:80px;
- font-weight: 2000;
 }
 .home-head-three{
-font-size: 90px; 
+font-size: 100px; 
 }
    
 /* HOME PAGE */
