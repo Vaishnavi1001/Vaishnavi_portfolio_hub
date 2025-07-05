@@ -137,3 +137,25 @@ color:#8A8C8E;
   gap:10px;
 }
 /* About PAGE */
+
+
+/* EXPERIENCE PAGE */
+.experience{
+  margin-top: 100px;
+  padding-left: 150px;
+  padding-right:150px
+}
+.experience-para-1{
+  color:#6611F2;
+}
+.experience-heading-1{
+  font-size:25px;
+}
+.experience-div{
+  color:#AAABAD; 
+  font-size:25px
+}
+.experience-para-2{
+  font-size:20px;
+}
+/* EXPERIENCE PAGE */
