@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaishnavi_portfolio_hub</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo_Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/animate.css">
      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link
@@ -15,7 +14,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Headland+One&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script defer src="Script.js"></script>
 </head>
 <body>
     
@@ -81,7 +83,7 @@
     <!-- Header ends here -->
 
     <main>
-    <!-- home page -->
+        <!-- home page -->
         <section class="home-page" id="home-page">
             <div class="container">
                 <div class="name">
@@ -141,7 +143,8 @@
                         <div class="col-md-3">
                             <div class="d-flex align-items-center about-div">
                                 <h4 class="about-heading-2">
-                                    <span >82+</span>
+                                    <span class="d-inline-block count-up" data-from="0" data-to="82" data-time="2000">82</span>
+                                    +
                                 </h4>
                                 <p class="text-secondary about-para-4">
                                     Projects
@@ -153,7 +156,8 @@
                         <div class="col-md-3">
                             <div class="d-flex align-items-center about-div">
                                 <h4 class="about-heading-2">
-                                    <span>45+</span>
+                                    <span class="d-inline-block count1" data-from="0" data-to="45" data-time="2000">45</span>
+                                    +
                                 </h4>
                                 <p class="text-secondary about-para-4">
                                     Happy
@@ -165,7 +169,8 @@
                         <div class="col-md-3">
                             <div class="d-flex align-items-center about-div">
                                 <h4 class="about-heading-2">
-                                    <span>13+</span>
+                                    <span class="d-inline-block count2" data-from="0" data-to="13" data-time="2000">13</span>
+                                    +
                                 </h4>
                                 <p class="text-secondary about-para-4">
                                     Years of
@@ -177,7 +182,8 @@
                         <div class="col-md-3">
                             <div class="d-flex align-items-center about-div">
                                 <h4 class="about-heading-2">
-                                    <span>95%</span>
+                                     <span class="d-inline-block count3" data-from="0" data-to="95" data-time="2000">95</span>
+                                     %
                                 </h4>
                                 <p class="text-secondary about-para-4">
                                     Client
@@ -257,11 +263,28 @@
 </footer>
 
 
+   <script src="jquery-3.7.1.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $('.slider-normal').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 4000,
+            autoplaySpeed: 0,
+            cssEase: 'linear',
+            infinite: true,
+            arrows: false,
+            dots: false,
+        });
+    </script>
     <script src="js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
