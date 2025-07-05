@@ -104,6 +104,9 @@ font-size: 105px;
 .about{
   margin-top: 100px;
 }
+.about-heading-content{
+  margin-bottom: 100px;
+}
 .about-para-1{
   color:#6611F2;
 }
@@ -141,9 +144,12 @@ color:#8A8C8E;
 
 /* EXPERIENCE PAGE */
 .experience{
-  margin-top: 100px;
-  padding-left: 150px;
-  padding-right:150px
+  margin-top: 150px;
+  padding-left: 200px;
+  padding-right:200px
+}
+.experience-heading-content{
+  margin-bottom: 100px;
 }
 .experience-para-1{
   color:#6611F2;
