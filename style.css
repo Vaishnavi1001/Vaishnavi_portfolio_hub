@@ -172,3 +172,40 @@ color:#8A8C8E;
   margin-top: 100px;
 }
 /* SKILLS PAGE */
+
+
+
+/* ACHIEVEMENT PAGE */
+.achievement{
+    margin-top: 100px;
+padding-left: 170px;
+padding-right:170px
+
+}
+.color_table{
+      color: #8A8C8E;
+      font-size: 20px;
+    }
+    .border_table{
+      border-bottom: 0.2px solid #F2F2F2;
+      margin: 20px;
+    }
+    .year{
+      margin-left: 20px;
+      padding-left: 30px;
+    }
+
+    .btn_resume{
+  border-radius: 10px;
+  border:2px solid #6610F2;
+  color: #6610F2;
+  padding:8px 35px;
+  text-decoration: none;
+ }
+ .btn_resume:hover{
+  background-color: #6610F2;
+  color:white;
+ }
+
+
+/* ACHIEVEMENT PAGE */
