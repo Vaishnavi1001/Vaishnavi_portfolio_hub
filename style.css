@@ -201,8 +201,8 @@ color:#8A8C8E;
 .achievement{
     margin-top: 100px;
 padding-left: 170px;
-padding-right:170px
-
+padding-right:170px;
+margin-bottom: 50px;
 }
 .color_table{
       color: #8A8C8E;
@@ -223,6 +223,7 @@ padding-right:170px
   color: #6610F2;
   padding:8px 35px;
   text-decoration: none;
+  
  }
  .btn_resume:hover{
   background-color: #6610F2;

@@ -1,0 +1,64 @@
+@media (max-width:1024px){
+    
+/* HOME PAGE */
+.home-head-one{
+font-size: 80px;
+}
+.home-para{
+   font-size:20px;
+}
+.home-head-two{
+font-size: 80px;
+}
+.home-head-three{
+font-size: 80px; 
+}
+.home-image{
+  width:70px;
+  height:70px;
+}   
+/* HOME PAGE */
+
+/* About PAGE */
+.about-heading-1{
+  font-size:40px;
+}
+.about-para-2{
+  font-size: 25px;
+}
+.about-para-3{
+  font-size:28px;
+}
+.about-heading-2{
+  font-size: 50px;
+}
+.about-para-4{
+font-size:20px;
+}
+
+/* About PAGE */
+
+/* EXPERIENCE PAGE */
+.experience{
+  padding-left: 50px;
+  padding-right:50px
+}
+
+
+/* EXPERIENCE PAGE */
+
+}
+
+@media (max-width:768px){
+
+    /* HOME PAGE */
+    .name{
+        padding-top:20px;
+        
+    }
+    .home-head-one{
+    font-size: 50px;
+    padding-left:30px;
+    }
+
+}
