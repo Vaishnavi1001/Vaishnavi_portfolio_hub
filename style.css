@@ -1,22 +1,23 @@
-body {
+body
+{
   font-family: "Oswald", sans-serif !important;
   font-optical-sizing: auto;
 }
 
 /* Header */
-.main-header {
-  margin-top: 10px;
+.main-header{
+    margin-top: 10px;
 }
 
 img.head-img-logo {
-  width: 30px;
-  height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 ul.connect-link {
-  list-style: none;
-  display: flex;
-  gap: 15px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
 }
 
 /* Header  */
@@ -25,248 +26,209 @@ ul.connect-link {
 
 /* Navigation  Starts*/
 a.nav-link {
-  color: black;
+    color: black;
 }
 
 div#navbarNav {
-  justify-content: center;
+    justify-content: center;
 }
 
 ul.navbar-nav {
 
-  gap: 21px;
+    gap: 21px;
 }
-
-a.navbar-brand {
-  font-size: 30px;
+a.navbar-brand{
+    font-size: 30px;
 }
-
-a.navbar-brand:hover {
-  color: #6610F2;
+a.navbar-brand:hover{
+    color: #6610F2;
 }
-
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
-  font-size: 25px;
-  font-weight: 500;
-  background: transparent !important;
+    font-size: 25px;
+    font-weight:500;
+    background: transparent !important;
 }
 
 a.nav-link:hover {
-  color: #6610F2;
+    color: #6610F2;
 }
 
 a.navbar-brand {
-  color: black;
+    color: black;
 }
-
 /* Navigation Ends */
 
 /* HOME PAGE */
-.arrow_img {
+.arrow_img{
   align-items: center;
   justify-content: center;
   height: 80px;
 }
-
 .img_rotate {
   width: 210px;
-  margin-bottom: 10px;
+   margin-bottom:10px;
   animation: infiniterotate 10s infinite linear !important;
 }
-
 @keyframes infiniterotate {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
-.name {
-  padding-top: 80px;
-
+.name{
+  padding-top:80px;
+  
+}
+.home-head-one{
+font-size: 100px;
+padding-left:10px;
 }
 
-.home-head-one {
-  font-size: 100px;
-  padding-left: 10px;
-}
-
-.home-image {
+.home-image{
   border-radius: 50%;
-  width: 85px;
-  height: 85px;
-  margin-bottom: 20px;
+  width:85px;
+  height:85px;
+  margin-bottom:20px;
 }
 
-.home-para {
-  margin-top: 20px;
-  font-size: 25px;
-  padding-left: 10px;
+.home-para{
+   margin-top:20px;
+   font-size:25px;
+   padding-left:10px;
 }
-
-.home-head-two {
-  font-size: 100px;
-  padding-left: 80px;
-  font-weight: 2000;
+.home-head-two{
+font-size: 100px;
+ padding-left:80px;
+ font-weight: 2000;
 }
-
-.home-head-three {
-  font-size: 100px;
+.home-head-three{
+font-size: 100px; 
 }
-
+   
 /* HOME PAGE */
 
 /* About PAGE */
-.about {
+.about{
   margin-top: 100px;
 }
-
-.about-para-1 {
-  color: #6611F2;
+.about-para-1{
+  color:#6611F2;
 }
-
-.about-para-2 {
+.about-para-2{
   font-size: 30px;
-  color: rgb(89, 89, 89)
+   color:rgb(89, 89, 89)
 }
-
-.about-para-3 {
-  font-size: 30px;
+.about-para-3{
+  font-size:30px;
 }
-
-.about-para-4 {
-  font-size: 25px;
+.about-para-4{
+font-size:25px;
 }
-
-.about-details {
+.about-details{
   padding-top: 50px;
-  margin-bottom: 90px;
+  margin-bottom:90px;
 }
-
-.about-heading-1 {
-  font-size: 50px;
+.about-heading-1{
+  font-size:50px;
 }
-
-.about-heading-2 {
+.about-heading-2{
   font-size: 70px;
-  color: #6611F2;
+  color:#6611F2;
 }
-
-.about-span-1 {
-  color: #6611F2;
+.about-span-1{
+  color:#6611F2;
 }
-
-.about-span-2 {
-  color: #8A8C8E;
+.about-span-2{
+color:#8A8C8E;
 }
-
-.about-div {
-  gap: 10px;
+.about-div{
+  gap:10px;
 }
-
 /* About PAGE */
 
 
 /* EXPERIENCE PAGE */
-.experience {
+.experience{
   margin-top: 100px;
   padding-left: 150px;
-  padding-right: 150px
+  padding-right:150px
 }
-
-.experience-para-1 {
-  color: #6611F2;
+.experience-para-1{
+  color:#6611F2;
 }
-
-.experience-heading-1 {
-  font-size: 25px;
+.experience-heading-1{
+  font-size:25px;
 }
-
-.experience-div {
-  color: #AAABAD;
-  font-size: 25px
+.experience-div{
+  color:#AAABAD; 
+  font-size:25px
 }
-
-.experience-para-2 {
-  font-size: 20px;
+.experience-para-2{
+  font-size:20px;
 }
-
 /* EXPERIENCE PAGE */
 
 
 /* SKILLS PAGE */
-.skills {
+.skills{
   margin-top: 100px;
 }
-
-.skills-para-1 {
-  color: #6611F2;
+.skills-para-1{
+  color:#6611F2;
 }
-
-.skills-div-1 {
+.skills-div-1{
   padding: 2px 20px;
 }
-
-.skills-div-5 {
+.skills-div-5{
+  padding: 2px 20px;
+}.skills-div-6{
   padding: 2px 20px;
 }
-
-.skills-div-6 {
-  padding: 2px 20px;
-}
-
-.skills-hr {
+.skills-hr{
   margin-right: 20px;
 }
-
-.skills-para {
-  color: #6611F2;
-  padding-left: 100px;
+.skills-para{
+  color:#6611F2;
+  padding-left:100px;
 }
-
 /* SKILLS PAGE */
 
 
 
 /* ACHIEVEMENT PAGE */
-.achievement {
-  margin-top: 100px;
-  padding-left: 170px;
-  padding-right: 170px;
-  margin-bottom: 50px;
+.achievement{
+    margin-top: 100px;
+padding-left: 170px;
+padding-right:170px;
+margin-bottom: 50px;
 }
+.color_table{
+      color: #8A8C8E;
+      font-size: 20px;
+    }
+    .border_table{
+      border-bottom: 0.2px solid #F2F2F2;
+      margin: 20px;
+    }
+    .year{
+      margin-left: 20px;
+      padding-left: 30px;
+    }
 
-.color_table {
-  color: #8A8C8E;
-  font-size: 20px;
-}
-
-.border_table {
-  border-bottom: 0.2px solid #F2F2F2;
-  margin: 20px;
-}
-
-.year {
-  margin-left: 20px;
-  padding-left: 30px;
-}
-
-.btn_resume {
+    .btn_resume{
   border-radius: 10px;
-  border: 2px solid #6610F2;
+  border:2px solid #6610F2;
   color: #6610F2;
-  padding: 8px 35px;
+  padding:8px 35px;
   text-decoration: none;
-
-}
-
-.btn_resume:hover {
+  
+ }
+ .btn_resume:hover{
   background-color: #6610F2;
-  color: white;
-}
+  color:white;
+ }
 
 /* ACHIEVEMENT PAGE */
 
