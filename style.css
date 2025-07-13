@@ -424,31 +424,3 @@ a.navbar-brand {
 
 /* PROJECT PAGE */
 
-/* CLIENT PAGE */
-.clients {
-  margin-top: 100px;
-  padding-left: 180px;
-  padding-right: 180px
-}
-
-.client-para {
-  font-size: 20px
-}
-
-.testimonial {
-  text-align: center;
-  padding: 40px;
-}
-
-.testimonial img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.carousel-indicators button {
-  background-color: #6610F2;
-}
-
-/* CLIENT PAGE */
