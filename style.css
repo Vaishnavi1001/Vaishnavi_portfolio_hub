@@ -452,3 +452,34 @@ a.navbar-brand {
 }
 
 /* CLIENT PAGE */
+
+
+/* QUESTION PAGE */
+.question {
+  margin-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px
+}
+
+.accordion.accordion-flush .accordion-header .accordion-button {
+  font-size: 30px;
+}
+
+.accordion-body {
+  font-weight: 10;
+  font-size: 28px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #6610F2 !important;
+  background: none !important;
+  border-color: none !important;
+}
+
+.accordion-button:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* QUESTION PAGE */
