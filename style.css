@@ -483,3 +483,95 @@ a.navbar-brand {
 }
 
 /* QUESTION PAGE */
+
+/* CONTACT PAGE */
+.contact {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.contact-para-1 {
+  color: #6611F2;
+}
+
+.contact-para-2 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.contact-span-1 {
+  color: #6611F2;
+}
+
+.contact-span-2 {
+  color: #8A8C8E;
+}
+
+.contact-div-1 {
+  padding-right: 10px;
+}
+
+.contact-heading-1 {
+  font-size: 40px;
+  font-weight: 350;
+  line-height: 1.5;
+  padding-right: 80px;
+}
+
+.contact-heading-2 {
+  font-size: 25px;
+  margin-top: 60px
+}
+
+.contact-heading-3 {
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.contact-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.form-label {
+  border: none;
+  color: #5e5e5f;
+  font-size: 23px;
+  font-weight: 1px;
+}
+
+.label {
+  border-bottom: 1px solid rgb(198, 197, 197);
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px 15px 0px 15px;
+  width: 100%;
+  outline: none;
+}
+
+form button {
+  margin-top: 30px;
+  width: 30%;
+  padding: 15px 5px;
+  background-color: #6610F2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #7621ff;
+}
+
+/* CONTACT PAGE */
