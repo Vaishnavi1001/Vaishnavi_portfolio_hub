@@ -575,3 +575,93 @@ form button:hover {
 }
 
 /* CONTACT PAGE */
+
+/* Footer starts  */
+.col-lg-9.footer-line {
+  text-align: center;
+}
+
+.row.footer {
+  justify-content: center;
+}
+
+.footer_color {
+  text-decoration: none;
+  color: #6610F2;
+}
+
+.footer_color:hover {
+  color: #5321a5;
+  text-decoration: underline;
+}
+
+a.social-item {
+  color: #56595C;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  /* allows wrapping on smaller screens */
+  gap: 25px;
+  /* adjust space between links */
+  justify-content: center;
+  /* optional: center align */
+  margin: 20px 0;
+  /* optional: space around the links block */
+}
+
+.social-item:hover {
+  color: #6610F2;
+  text-decoration: underline;
+}
+
+p.footer-class {
+  text-align: center;
+  font-size: 25px;
+  color: #6C757D;
+}
+
+p.footer-para {
+  font-size: 20px;
+  text-align: center;
+  color: #6C757D;
+}
+
+.nav {
+  list-style: none;
+  /* Remove bullet points */
+  list-style: none;
+  /* Remove bullet points */
+  list-style: none;
+  /* Remove bullet points */
+  list-style: none;
+  /* Remove bullet points */
+  padding: 0;
+  margin: 20px 0;
+  /* You can adjust spacing here */
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  gap: 30px;
+  /* Space between items – adjust as needed */
+}
+
+.guidlens {
+  font-size: 20px;
+  text-decoration: none;
+  color: #56595C;
+  /* Change this to your desired color */
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.guidlens:hover {
+  color: #6610F2;
+  /* On hover color */
+}
+
+/* /Footer ends  */
+/* FOOTER */
