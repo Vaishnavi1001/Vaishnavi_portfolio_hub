@@ -670,7 +670,10 @@ p.footer-para {
   padding-bottom: 30px;
 }
 
-
+.guidlens:hover {
+  color: #6610F2;
+  /* On hover color */
+}
 
 /* /Footer ends  */
 /* FOOTER */
