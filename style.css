@@ -648,15 +648,11 @@ p.footer-para {
   list-style: none;
   /* Remove bullet points */
   list-style: none;
-  /* Remove bullet points */
   list-style: none;
-  /* Remove bullet points */
   padding: 0;
   margin: 20px 0;
-  /* You can adjust spacing here */
   display: flex;
   justify-content: center;
-  /* Center horizontally */
   gap: 30px;
 }
 
