@@ -658,7 +658,6 @@ p.footer-para {
   justify-content: center;
   /* Center horizontally */
   gap: 30px;
-  /* Space between items – adjust as needed */
 }
 
 .guidlens {
@@ -672,7 +671,6 @@ p.footer-para {
 
 .guidlens:hover {
   color: #6610F2;
-  /* On hover color */
 }
 
 /* /Footer ends  */
