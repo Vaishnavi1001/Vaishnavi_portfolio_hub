@@ -1,79 +1,67 @@
-@media (max-width:1024px){
-    
-/* HOME PAGE */
-.home-head-one{
-font-size: 80px;
-}
-.home-para{
-   font-size:20px;
-}
-.home-head-two{
-font-size: 80px;
-}
-.home-head-three{
-font-size: 80px; 
-}
-.home-image{
-  width:70px;
-  height:70px;
-}   
-/* HOME PAGE */
-
-/* About PAGE */
-.about-heading-1{
-  font-size:40px;
-}
-.about-para-2{
-  font-size: 25px;
-}
-.about-para-3{
-  font-size:28px;
-}
-.about-heading-2{
-  font-size: 50px;
-}
-.about-para-4{
-font-size:20px;
-}
-
-/* About PAGE */
-
-/* EXPERIENCE PAGE */
-.experience{
-  padding-left: 50px;
-  padding-right:50px
-}
+@media (max-width:1280px) {
+  /* SERVICE PAGE */
 
 
-/* EXPERIENCE PAGE */
+  .service-box h5 {
+    font-size: 20px;
+    font-weight: 450;
+  }
 
+  .service-content {
+    color: #56595C;
+    font-size: 15px;
+  }
+
+  /* PROJECT PAGE */
+
+  .items {
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+  }
+
+  .projects img {
+    padding: 5px;
+    border-radius: 20px;
+    width: 320px;
+    height: 200px;
+  }
+
+  .project-card {
+    position: relative;
+
+  }
+
+  .overlay {
+    position: absolute;
+    border-radius: 13px;
+
+    top: 6px;
+    /* match padding */
+    left: 5px;
+    width: calc(100% - 70px);
+    /* subtract padding */
+    height: calc(100% - 11px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+  }
+
+  .project-card:hover .overlay {
+    opacity: 1;
+  }
+
+  .project-heading-1 {
+    font-size: 28px;
+  }
+
+  .project-span-1 {
+    font-size: 22px;
+  }
+
+  /* SKILLS PAGE */
+  .skill {
+    font-size: 12px;
+  }
 }
 
-@media (max-width:768px){
 
-    /* HOME PAGE */
-    .name{
-        padding-top:20px;
-        
-    }
-    .home-head-one{
-    font-size: 50px;
-    padding-left:30px;
-    }
-    .home-image{
-        width:50px;
-        height:50px;
-        margin-top: 10px;
-    }  
-    .home-para{
-        font-size:15px;
-        padding-left:30px;
-    }
-    .home-head-two{
-        font-size: 50px;
-    }
-    .home-head-three{
-        font-size: 50px; 
-    }
-
-}
