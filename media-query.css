@@ -93,6 +93,133 @@
     font-size: 70px;
   }
 
-  
+  /* About PAGE */
+  .about-heading-1 {
+    font-size: 35px;
+  }
+
+  .about-heading-2 {
+    font-size: 50px;
+  }
+
+  .about-para-2 {
+    font-size: 20px;
+  }
+
+  .about-para-3 {
+    font-size: 25px;
+  }
+
+
+  /* SKILLS PAGE */
+  .skill {
+    font-size: 10px;
+  }
+
+  .skills-div-1 {
+    padding: 2px 5px;
+  }
+
+  .skills-div-5 {
+    padding: 2px 5px;
+  }
+
+  .skills-div-6 {
+    padding: 2px 5px;
+  }
+
+  .skills-para {
+    color: #6611F2;
+    padding-left: 90px;
+  }
+
+  /* SERVICE PAGE */
+  .num {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  /* PROJECT PAGE */
+  .items {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+  }
+
+  .projects img {
+    padding: 5px;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .overlay {
+    position: absolute;
+    border-radius: 13px;
+    top: 6px;
+    /* match padding */
+    left: 5px;
+    width: calc(100% - 30px);
+    /* subtract padding */
+    height: calc(100% - 11px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+  }
+
+  .project-heading-1 {
+    font-size: 25px;
+  }
+
+  .project-span-1 {
+    font-size: 20px;
+  }
+
+
+  /* CLIENT PAGE */
+  .client-para {
+    font-size: 15px;
+  }
+
+  /* QUESTION PAGE */
+  .accordion-body {
+    font-size: 20px;
+  }
+
+  .accordion.accordion-flush .accordion-header .accordion-button {
+    font-size: 20px;
+  }
+
+
+  /* CONTACT PAGE */
+  .contact-heading-1 {
+    font-size: 30px;
+  }
+
+  .form-label {
+    font-size: 20px;
+  }
+
+  .contact-heading-3 {
+    font-size: 30px;
+  }
+
+  .contact-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact-heading-2 {
+    font-size: 20px;
+    margin-top: 30px
+  }
+
+  .contact-para-2 {
+    font-size: 20px;
+  }
+
+  form button {
+    width: 25%;
+    font-size: 15px;
+  }
 }
 
