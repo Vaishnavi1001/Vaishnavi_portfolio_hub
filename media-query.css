@@ -223,3 +223,35 @@
   }
 }
 
+@media (max-width:991px) {
+
+  /* HOME PAGE */
+  .name {
+    padding-top: 50px;
+  }
+
+  .home-head-one {
+    font-size: 45px;
+    padding-left: 10px;
+  }
+
+  .home-head-two {
+    font-size: 45px;
+  }
+
+  .home-head-three {
+    font-size: 45px;
+  }
+
+  .home-para {
+    margin-top: 0px;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+
+  .img_rotate {
+    width: 120px;
+  }
+
+  
+}
