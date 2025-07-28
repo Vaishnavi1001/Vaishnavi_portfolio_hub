@@ -260,5 +260,12 @@
   .about-heading-2 {
     font-size: 40px;
   }
+    .about-para-3 {
+    font-size: 22px;
+  }
+
+  .about-para-4 {
+    font-size: 15px;
+  }
   
 }
