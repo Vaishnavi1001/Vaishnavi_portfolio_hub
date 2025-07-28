@@ -267,5 +267,11 @@
   .about-para-4 {
     font-size: 15px;
   }
+
+    /* EXPERIENCE PAGE */
+  .experience {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   
 }
