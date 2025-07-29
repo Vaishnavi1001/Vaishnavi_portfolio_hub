@@ -252,15 +252,17 @@
   .img_rotate {
     width: 120px;
   }
-/* About PAGE */
-   .about-heading-1 {
+
+  /* About PAGE */
+  .about-heading-1 {
     font-size: 30px;
   }
 
   .about-heading-2 {
     font-size: 40px;
   }
-    .about-para-3 {
+
+  .about-para-3 {
     font-size: 22px;
   }
 
@@ -268,10 +270,19 @@
     font-size: 15px;
   }
 
-    /* EXPERIENCE PAGE */
+  /* EXPERIENCE PAGE */
   .experience {
     padding-left: 0px;
     padding-right: 0px;
   }
-  
-}
+
+  /* SKILLS PAGE */
+  .skill {
+    font-size: 10px;
+  }
+
+  .skills-para {
+    padding-left: 48px;
+  }
+
+  }
