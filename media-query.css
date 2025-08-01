@@ -359,6 +359,23 @@
     font-size: 15px;
   }
 
-  
+  /* FOOTER */
+  .social-links a {
+    font-size: 15px;
+  }
+
+  .footer-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-para-1 {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .footer-para-2 {
+    font-size: 22px;
+  }
 
 }
